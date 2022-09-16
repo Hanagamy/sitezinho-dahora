@@ -1,0 +1,146 @@
+/*estrutura inicial*/
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(27, 27, 27);
+  }
+  #container{
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  #dnavagation{
+    margin-top: 0;
+    margin-right: 30px;
+  } 
+  #dnavagation ul li:hover{
+    font-size: 1.35em;
+}
+  #topo{
+    background: transparent;
+    height: 86px;
+    padding-top: 5;
+    max-width: 25em;
+    margin-left: 250px;
+    
+  }
+  h1{
+    margin-top: 30px;
+    color: #000000;
+    font-size: 20px;
+  }
+  .logo{
+    width: 152px;
+    height: 56px;
+   
+  }
+  
+  
+  /*barra de navegação*/
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #dnavagation ul{
+    margin-top: 30px;
+   
+    float: right;
+  }
+  
+  #dnavagation ul li{
+    float: left;
+  }
+  #dnavagation ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #000000;
+    background: transparent;
+  
+  }
+  
+  
+  
+  /*parte central do site*/
+  .grid{
+   margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  p{
+    text-align: center;
+    color: #ffc107;
+  }
+  
+  #titulo1{
+    color: #ffc107;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .dino{
+    height: 300px;
+    width: 300px;
+    position: relative;
+  }
+  .dino p{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .car{
+    height: 300px;
+    width: 300px;
+    position: relative;
+  }
+  .fror{
+    height: 300px;
+    width: 300px; 
+    position: relative;
+  }
+  .cueio{
+    height: 300px;
+    width: 300px; 
+    position: relative;
+  }
+  .barco{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px; 
+    position: relative;
+  }
+  .pong{
+    margin-top: 40px;
+    height: 300px;
+    width: 300px; 
+    position: relative;
+  }
+  .jmdm{
+    margin-top: 40px;
+    height: 300px;
+    width: 300px; 
+    position: relative;
+  }
+  .jmdm p{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
